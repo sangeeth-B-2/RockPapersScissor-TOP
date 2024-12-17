@@ -1,0 +1,102 @@
+
+body {
+    box-sizing: border-box;
+    background-color: #dfd3c3;
+    font-family: 'Courier New', Courier, monospace;
+    width: 750px;
+    height: 750px;
+    margin: auto;
+}
+.options {
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+
+}
+.btn {
+    width: 180px;
+    height: 100px;
+    text-align: center;
+    font-family: 'copperplate', fantasy;
+    font-size: 30px;
+    margin: 5px;
+    border-radius: 25px;
+}
+.btn:hover{
+    opacity: 0.5;
+    color: #03034e;
+    background-color: #3fa877;
+    font-size: 35px;
+}
+.btnOpp{
+    font-size: 1.5rem;
+    color: aliceblue;
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#resetButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.currentScore {
+    margin: 2px 0px 2px 75PX;
+    font-size: 2em;
+    BACKGROUND-COLOR: cadetblue;
+    PADDING: 2px 20px 2px 20px;
+}
+
+.scoreBoard {
+    background-color: rgb(184, 181, 181);
+    text-align: center;
+    margin-top: 15px;
+    border: solid 10px black;
+}
+#ourChoice, 
+#compChoice{
+    font-weight: bolder;
+}
+#whoWon{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: coral;
+}
+#currentRoundWinner{
+    display: inline-block;  /* Makes the span behave like a block but stays inline */
+    background-color: lightblue;
+    padding: 2px 5px; /* Optional padding for extra spacing */
+    border-radius: 3px; 
+}
+.bigHead {
+   
+    color: #f4e1d2;
+    font-size: 20px;
+padding: 2px ;
+    align-items: center;
+    text-align: center;
+    background-color: #50394c;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+h2 {
+    font-family: 'monaco', monospace;
+    text-align: center;
+    background-color: #55a780;
+    margin: 2px;
+    padding: 4px ;
+
+}
+
+ a {
+    display: flex;
+    justify-content: center;
+    margin: 10px 70px 5% 70px;
+    text-decoration: none;
+    color: rgb(33, 71, 71);
+    
+}

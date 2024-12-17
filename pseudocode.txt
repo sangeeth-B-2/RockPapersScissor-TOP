@@ -1,0 +1,30 @@
+content requirement :
+    * ROCK-PAPER-SCISSORS.
+    * GET OUR AND COMPUTER'S INPUT.  
+    * SHOW PICKINGS OF YOU AND COMPUTER.
+    * SHOW WHO BEATS WHO.
+    * WINNER OF 5 GAMES WINS ALL.
+    * RESET BUTTON(OPTIONAL)
+
+PSEUDOCODE :
+    1. make a array of 'choices'
+    2. GET INPUT FROM THE USER.(ourChoice)
+        *receive as a text input without case sensitive
+        *match the input with one three options
+    3. MAKE COMPUTER CREATE A RANDOM VARIRABLE NUMBER(compVariable) 
+        *USING math.random() function
+    4. DECIDE THE WINNER 
+        *use Math.floor(Math.random()) to have random number between then length of 'choices'
+        *now using comparison operators we are going to match the value 
+        with one of three options 
+         i.e rock, paper or scissors
+    5. REPEAT THE LOOP UNTIL YOU OR COMP WINNS FOR 5 TIMES THEN STOP.
+    6. SHOW WHO'S THE BOSS.
+
+
+
+
+
+
+        
+                
